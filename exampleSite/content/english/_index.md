@@ -1,13 +1,13 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Hugo Project"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jump-start your Hugo project and save valuable time."
+  title: "您好，這裡是雲朵居家整理"
+  content: "我是整理師小昀，有近百場到府服務的經驗，我們有提供整理、搬家打包上架的服務"
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Fork Deploy and Edit Online 🚀"
-    link: "https://app.sitepins.com/new/clone?name=Hugoplate&repository=https://github.com/zeon-studio/hugoplate?aff=hugoplate"
+    label: "還迎加入官方 Line 諮詢＆預約 ☁️"
+    link: "[https://app.sitepins.com/new/clone?name=Hugoplate&repository=https://github.com/zeon-studio/hugoplate?aff=hugoplate](https://line.me/R/ti/p/@086qpqhn)"
 
 # Features
 features:
