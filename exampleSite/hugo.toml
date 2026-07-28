@@ -46,7 +46,7 @@ target = 'css'
 ############################# Modules ############################
 [module]
 [[module.mounts]]
-source = 'assets'
+source = '../assets'
 target = 'assets'
 [[module.mounts]]
 disableWatch = true
