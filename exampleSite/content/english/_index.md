@@ -6,12 +6,12 @@ banner:
   image: "/images/banner.png"
   button:
     enable: true
-    label: "還迎加入官方 Line 諮詢＆預約 ☁️"
-    link: "[https://app.sitepins.com/new/clone?name=Hugoplate&repository=https://github.com/zeon-studio/hugoplate?aff=hugoplate](https://line.me/R/ti/p/@086qpqhn)"
+    label: "歡迎加入官方 Line 諮詢＆預約 ☁️"
+    link: "https://line.me/R/ti/p/@086qpqhn"
 
 # Features
 features:
-  - title: "What's Included in Hugoplate"
+  - title: "整理服務"
     image: "/images/service-1.png"
     content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
     bulletpoints:
@@ -26,7 +26,7 @@ features:
       label: "Get Started Now"
       link: "#"
 
-  - title: "Discover the Key Features Of Hugo"
+  - title: "打包與搬家服務"
     image: "/images/service-2.png"
     content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
     bulletpoints:
@@ -38,7 +38,7 @@ features:
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/hugoplate"
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
+  - title: "為什麼需要整理？"
     image: "/images/service-3.png"
     content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
     bulletpoints:
