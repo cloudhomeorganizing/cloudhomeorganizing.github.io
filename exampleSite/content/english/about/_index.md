@@ -1,9 +1,9 @@
 ---
-title: "Hey, I am John Doe!"
-meta_title: "About"
+title: "Hey, I am 拉布拉多!"
+meta_title: "關於"
 description: "this is meta description"
 image: "/images/image-placeholder.png"
-layout: "關於"
+layout: "about"
 draft: false
 ---
 
