@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "雲朵居家整理"
-  content: "我是整理師小昀，有近百場到府服務的經驗，我們有提供整理、搬家打包上架的服務"
+  content: ""
   image: "/images/banner.png"
   button:
     enable: true
