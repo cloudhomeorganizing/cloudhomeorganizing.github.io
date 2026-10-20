@@ -15,6 +15,7 @@
           {{ range site.Menus.footer }}
             <li class="m-3 inline-block">
               <a
+                class="text-base md:text-lg font-medium text-gray-700 dark:text-gray-300 hover:text-primary"
                 {{ if findRE `^http` .URL }}
                   target="_blank" rel="noopener"
                 {{ end }}
