@@ -2,7 +2,7 @@
 
 # main menu
 [[main]]
-name = "Home"
+name = "CLOUDHOME"
 url = "/"
 weight = 1
 
@@ -12,38 +12,58 @@ url = "/about"
 weight = 2
 
 [[main]]
-name = "Elements"
+name = "服務項目"
 url = "/elements"
 weight = 3
 
 [[main]]
-weight = 4
-name = "Pages"
+parent = "服務項目"
+name = "整理服務"
+url = "/elements"
 
 [[main]]
-parent = "Pages"
+parent = "服務項目"
+name = "搬家打包"
+url = "/elements"
+
+[[main]]
+parent = "服務項目"
+name = "精緻上架"
+url = "/elements"
+
+[[main]]
+weight = 4
+name = "案例分享"
+
+[[main]]
+parent = "案例分享"
 name = "Blog"
 url = "/blog"
 
 [[main]]
-parent = "Pages"
+parent = "案例分享"
 name = "Contact"
 url = "/contact"
 
 [[main]]
-parent = "Pages"
+parent = "案例分享"
 name = "Authors"
 url = "/authors"
 
 [[main]]
-parent = "Pages"
+parent = "案例分享"
 name = "Categories"
 url = "/categories"
 
+#[[main]]
+#parent = "案例分享"
+#name = "404 Page"
+#url = "/404"
+
 [[main]]
-parent = "Pages"
-name = "404 Page"
-url = "/404"
+weight = 5
+name = "常見Q&A"
+url = "/qa"
 
 
 # footer menu
@@ -57,7 +77,7 @@ name = "Elements"
 url = "/elements"
 weight = 2
 
-[[footer]]
-name = "Privacy Policy"
-url = "/privacy-policy"
-weight = 3
+#[[footer]]
+#name = "Privacy Policy"
+#url = "/privacy-policy"
+#weight = 3
