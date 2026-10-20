@@ -1,7 +1,7 @@
 ---
 # Banner
 banner:
-  title: "您好，這裡是雲朵居家整理"
+  title: "雲朵居家整理"
   content: "我是整理師小昀，有近百場到府服務的經驗，我們有提供整理、搬家打包上架的服務"
   image: "/images/banner.png"
   button:
@@ -13,7 +13,7 @@ banner:
 features:
   - title: "整理服務"
     image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+    content: ""
     bulletpoints:
       - "10+ Pre-build pages"
       - "95+ Google Pagespeed Score"
@@ -26,7 +26,7 @@ features:
       label: "Get Started Now"
       link: "#"
 
-  - title: "打包與搬家服務"
+  - title: "搬家打包"
     image: "/images/service-2.png"
     content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
     bulletpoints:
@@ -38,7 +38,7 @@ features:
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/hugoplate"
 
-  - title: "為什麼需要整理？"
+  - title: "精緻上架（搬家）"
     image: "/images/service-3.png"
     content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
     bulletpoints:
