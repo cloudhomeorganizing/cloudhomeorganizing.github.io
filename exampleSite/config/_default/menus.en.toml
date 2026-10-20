@@ -43,7 +43,7 @@ url = "/blog"
 [[main]]
 parent = "案例分享"
 name = "搬家案例"
-url = "/contact"
+url = "/blog"
 
 [[main]]
 parent = "案例分享"
@@ -65,6 +65,7 @@ url = "/#"
 [[footer]]
 name = "聯繫我們"
 url = "/about"
+#"/contact"
 weight = 1
 
 #[[footer]]
