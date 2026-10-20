@@ -64,7 +64,7 @@ url = "/#"
 # footer menu
 [[footer]]
 name = "聯繫我們"
-url = "/about"
+url = "/"
 #"/contact"
 weight = 1
 
