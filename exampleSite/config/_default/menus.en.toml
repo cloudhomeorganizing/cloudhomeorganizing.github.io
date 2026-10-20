@@ -29,7 +29,7 @@ url = "/#service-2"
 [[main]]
 parent = "服務項目"
 name = "精緻上架"
-url = "/service-3"
+url = "/#service-3"
 
 [[main]]
 weight = 4
