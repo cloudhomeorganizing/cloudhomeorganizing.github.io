@@ -11,7 +11,8 @@ banner:
 
 # Features
 features:
-  - title: "整理服務"
+  - id: "service-1"
+    title: "整理服務"
     image: "/images/service-1.png"
     content: ""
     bulletpoints:
@@ -26,7 +27,8 @@ features:
       label: "Get Started Now"
       link: "#"
 
-  - title: "搬家打包"
+  - id: "service-2"
+    title: "搬家打包"
     image: "/images/service-2.png"
     content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
     bulletpoints:
@@ -38,7 +40,8 @@ features:
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/hugoplate"
 
-  - title: "精緻上架（搬家）"
+  - id: "service-3"
+    title: "精緻上架（搬家）"
     image: "/images/service-3.png"
     content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
     bulletpoints:
