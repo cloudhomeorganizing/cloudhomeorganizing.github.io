@@ -18,8 +18,8 @@ weight = 3
 
 [[main]]
 parent = "服務項目"
-name = "整理服務"
-url = "/#service-1"
+name = "精緻上架"
+url = "/#service-3"
 
 [[main]]
 parent = "服務項目"
@@ -28,17 +28,12 @@ url = "/#service-2"
 
 [[main]]
 parent = "服務項目"
-name = "精緻上架"
-url = "/#service-3"
+name = "整理服務"
+url = "/#service-1"
 
 [[main]]
 weight = 4
 name = "案例分享"
-
-[[main]]
-parent = "案例分享"
-name = "整理案例"
-url = "/blog"
 
 [[main]]
 parent = "案例分享"
@@ -47,7 +42,7 @@ url = "/blog"
 
 [[main]]
 parent = "案例分享"
-name = "部落格文章"
+name = "整理案例"
 url = "/blog"
 
 #[[main]]
@@ -57,6 +52,16 @@ url = "/blog"
 
 [[main]]
 weight = 5
+name = "文章/常見Q&A"
+url = "/#"
+
+[[main]]
+parent = "文章/常見Q&A"
+name = "文章"
+url = "/#"
+
+[[main]]
+parent = "文章/常見Q&A"
 name = "常見Q&A"
 url = "/#"
 
