@@ -1,1 +1,18 @@
 /* Add your own custom styles here */
+.site-footer {
+  background-color: #f5efe6;
+}
+
+.site-footer .social-icons a,
+.site-footer .social-icons a i,
+.site-footer .text-gray-700,
+.site-footer .text-base,
+.site-footer p {
+  color: #3a342f;
+}
+
+.site-footer .social-icons a:hover,
+.site-footer .social-icons a:hover i,
+.site-footer a:hover {
+  color: #7a6a52;
+}
