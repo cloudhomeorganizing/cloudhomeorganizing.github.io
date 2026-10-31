@@ -11,7 +11,7 @@
             <p class="mb-8">
               {{ .content | markdownify }}
             </p>
-            {{ with .buttons }}
+            {{ with .button }}
               {{ if .enable }}
                 <a
                   class="btn btn-primary"
@@ -23,6 +23,16 @@
                 </a>
               {{ end }}
             {{ end }}
+            {{ with .buttons }}
+              {{ range . }}
+                {{ if .enable }}
+                  <a class="btn btn-primary mt-3" href="{{ .link | absURL }}">
+                  {{ .label }}
+                  <i class="fa fa-arrow-right pl-2"></i>
+                </a>
+              {{ end }}
+            {{ end }}
+          {{ end }}
           </div>
           <div class="col-12">
             {{/* image modules comes from https://github.com/gethugothemes/hugo-modules/tree/master/images */}}
