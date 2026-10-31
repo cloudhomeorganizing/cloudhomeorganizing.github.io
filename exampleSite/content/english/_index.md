@@ -30,7 +30,7 @@ features:
           - 新家收納規劃配置、精緻上架服務。<br><br>
       讓你能在2天時間內輕鬆快速入住，甚至生活上更順心順手！
     
-    button:
+    buttons:
       - enable: true
         label: "打包預約流程"
         link: "#"
