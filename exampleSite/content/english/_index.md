@@ -29,18 +29,16 @@ features:
           * 專業、細心的打包服務
           * 新家收納規劃配置、精緻上架服務。
       讓你能在2天時間內輕鬆快速入住，甚至生活上更順心順手！
-    button:
-      enable: true
-      label: "打包預約流程"
-      link: "#"
-    button:
-      enable: true
-      label: "上架預約流程"
-      link: "#"
-    button:
-      enable: true
-      label: "打包+上架預約流程"
-      link: "#"
+    buttons:
+      - enable: true
+        label: "打包預約流程"
+        link: "#"
+      - enable: true
+        label: "上架預約流程"
+        link: "#"
+      - enable: true
+        label: "打包+上架預約流程"
+        link: "#"      
 
   - id: "service-3"
     title: "精緻上架（搬家）"
