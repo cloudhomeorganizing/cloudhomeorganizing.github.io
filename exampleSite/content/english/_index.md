@@ -29,17 +29,17 @@ features:
     content: |
       現在人忙碌的生活，自行處理搬家事務往往會搞到焦頭爛額。<br>
       我們有：<br><br>
-      ● 專業、細心的打包服務<br>
-      ● 新家收納規劃配置、精緻上架服務。<br><br>
+      - 專業、細心的打包服務<br>
+      - 新家收納規劃配置、精緻上架服務。<br><br>
       讓你能在2天時間內輕鬆快速入住，甚至生活上更順心順手！
     buttons:
-      - enable: false
+      - enable: true
         label: "打包預約流程"
         link: "#"
-      - enable: false
+      - enable: true
         label: "上架預約流程"
         link: "#"
-      - enable: false
+      - enable: true
         label: "打包+上架預約流程"
         link: "#"
 
