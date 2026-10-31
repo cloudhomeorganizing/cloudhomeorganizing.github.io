@@ -3,19 +3,12 @@
   background-color: #f5efe6;
 }
 
-.site-footer .social-icons a,
-.site-footer .social-icons a i,
-.site-footer .text-gray-700,
-.site-footer .text-base,
-.site-footer p {
-  color: #3a342f;
+
+html, body, main {
+  background-color: #fcfbf8 !important;
 }
 
-.site-footer .social-icons a:hover,
-.site-footer .social-icons a:hover i,
-.site-footer a:hover {
-  color: #7a6a52;
-}
-html, body {
-  background-color: #fcfbf8;
+.page-header-inner {
+  background-color: #fcfbf8 !important;
+  background-image: none !important;
 }
