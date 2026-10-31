@@ -11,7 +11,6 @@
             <p class="mb-8">
               {{ .content | markdownify }}
             </p>
-
             {{ if .button }}
               {{ with .button }}
                 {{ if .enable }}
@@ -25,16 +24,6 @@
                   </a>
                 {{ end }}
               {{ end }}
-            {{ else if .buttons }}
-              {{ range .buttons }}
-                {{ if .enable }}
-                  <a class="btn btn-primary mt-3" href="{{ .link | absURL }}">
-                    {{ .label }}
-                    <i class="fa fa-arrow-right pl-2"></i>
-                  </a>
-                {{ end }}
-              {{ end }}
-            {{ end }}
           </div>
           <div class="col-12">
             {{/* image modules comes from https://github.com/gethugothemes/hugo-modules/tree/master/images */}}
@@ -47,7 +36,7 @@
   <!-- /Banner -->
 
   <!-- Features -->
-  {{ range $i, $e:= .Params.features }}
+  {{ range $i, $e := .Params.features }}
     <section id="{{ .id }}" class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
       <div class="container">
         <div class="row items-center justify-between">
@@ -64,23 +53,49 @@
             <h2 class="mb-4">
               {{ .title | markdownify }}
             </h2>
+
             <p class="mb-8 text-lg">
               {{ .content | markdownify }}
             </p>
-            <ul>
-              {{ range .bulletpoints }}
-                <li class="relative mb-4 pl-6">
-                  <i class="fa fa-check absolute left-0 top-1.5"></i>
-                  {{ . | markdownify }}
-                </li>
+
+            {{ with .bulletpoints }}
+              <ul>
+                {{ range . }}
+                  <li class="relative mb-4 pl-6">
+                    <i class="fa fa-check absolute left-0 top-1.5"></i>
+                    {{ . | markdownify }}
+                  </li>
+                {{ end }}
+              </ul>
+            {{ end }}
+
+            {{ if .button }}
+              {{ with .button }}
+                {{ if .enable }}
+                  <a
+                    class="btn btn-primary mt-6"
+                    href="{{ .link | absURL }}"
+                    {{ if strings.HasPrefix .link `http` }}
+                      target="_blank" rel="noopener"
+                    {{ end }}>
+                    {{ .label }}
+                    <i class="fa fa-arrow-right pl-2"></i>
+                  </a>
+                {{ end }}
               {{ end }}
-            </ul>
-            {{ with .button }}
-              {{ if .enable }}
-                <a class="btn btn-primary mt-6" href="{{ .link | absURL }}">
-                  {{ .label }}
-                  <i class="fa fa-arrow-right pl-2"></i>
-                </a>
+            {{ else if .buttons }}
+              {{ range .buttons }}
+                {{ if .enable }}
+                  <a
+                    class="btn btn-primary mt-3"
+                    href="{{ .link | absURL }}"
+                    {{ if strings.HasPrefix .link `http` }}
+                      target="_blank" rel="noopener"
+                    {{ end }}>
+                    {{ .label }}
+                    <i class="fa fa-arrow-right pl-2"></i>
+                  </a>
+                {{ end }}
               {{ end }}
             {{ end }}
           </div>
