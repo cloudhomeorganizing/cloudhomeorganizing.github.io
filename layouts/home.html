@@ -25,16 +25,6 @@
                   </a>
                 {{ end }}
               {{ end }}
-            {{ else if .buttons }}
-              {{ range .buttons }}
-                {{ if .enable }}
-                  <a class="btn btn-primary mt-3" href="{{ .link | absURL }}">
-                    {{ .label }}
-                    <i class="fa fa-arrow-right pl-2"></i>
-                  </a>
-                {{ end }}
-              {{ end }}
-            {{ end }}
           </div>
           <div class="col-12">
             {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[800px]" "DisplayXL" "800x" ) }}
@@ -56,6 +46,41 @@
             {{ end }} md:col-5 mb-6">
             {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
           </div>
+          <div
+            class="{{ if not (modBool $i 2) }}
+              md:order-1
+            {{ end }} md:col-7 lg:col-6">
+            <h2 class="mb-4">
+              {{ .title | markdownify }}
+            </h2>
+
+            <p class="mb-8 text-lg">
+              {{ .content | markdownify }}
+            </p>
+
+            {{ with .bulletpoints }}
+              <ul>
+                {{ range . }}
+                  <li class="relative mb-4 pl-6">
+                    <i class="fa fa-check absolute left-0 top-1.5"></i>
+                    {{ . | markdownify }}
+                  </li>
+                {{ end }}
+              </ul>
+            {{ end }}
+
+  <!-- Features -->
+  {{ range $i, $e := .Params.features }}
+    <section id="{{ .id }}" class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
+      <div class="container">
+        <div class="row items-center justify-between">
+          <div
+            class="mb:md-0 {{ if not (modBool $i 2) }}
+              md:order-2
+            {{ end }} md:col-5 mb-6">
+            {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
+          </div>
+
           <div
             class="{{ if not (modBool $i 2) }}
               md:order-1
@@ -108,6 +133,12 @@
                 {{ end }}
               {{ end }}
             {{ end }}
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+  <!-- /Features -->
           </div>
         </div>
       </div>
