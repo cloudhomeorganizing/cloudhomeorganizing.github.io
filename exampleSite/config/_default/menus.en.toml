@@ -53,17 +53,17 @@ weight = 2
 
 [[main]]
 weight = 5
-name = "文章/常見Q&A"
+name = "文章／常見Q&A"
 url = "/#"
 
 [[main]]
-parent = "文章/常見Q&A"
+parent = "文章／常見Q&A"
 name = "文章"
 url = "/#"
 weight = 1
 
 [[main]]
-parent = "文章/常見Q&A"
+parent = "文章／常見Q&A"
 name = "常見Q&A"
 url = "/#"
 weight = 2
