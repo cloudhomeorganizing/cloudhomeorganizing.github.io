@@ -33,13 +33,13 @@ features:
       ● 新家收納規劃配置、精緻上架服務。<br><br>
       讓你能在2天時間內輕鬆快速入住，甚至生活上更順心順手！
     buttons:
-      - enable: true
+      - enable: false
         label: "打包預約流程"
         link: "#"
-      - enable: true
+      - enable: false
         label: "上架預約流程"
         link: "#"
-      - enable: true
+      - enable: false
         label: "打包+上架預約流程"
         link: "#"
 
