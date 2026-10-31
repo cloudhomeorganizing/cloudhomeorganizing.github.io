@@ -1,5 +1,5 @@
 <section>
-  <div class="container text-center">
+  <div class="container text-center" style="background-color: #fcfbf8;">
     <div class="rounded-2xl px-8 py-14 page-header-inner">
       <h1>{{ T (printf "%s" (lower .Title)) | default .Title | title }}</h1>
       {{ partial "components/breadcrumb" (dict "Context" . "Class" "mt-6") }}
