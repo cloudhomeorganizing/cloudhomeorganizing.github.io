@@ -69,7 +69,7 @@ show_categories = true
 [announcement]
 enable = true
 expire_days = 7
-content = "<div style='background-color:#E6D7C1; padding:8px 12px;'><span class='text-center block' style='color:#4F4F4F;'>歡迎加入 <a class='underline' href='https://line.me/R/ti/p/@086qpqhn' target='_blank' rel='noopener' style='color:#004B97; text-decoration:underline;'>官方 Line</a> 諮詢＆預約 ☁️</span>"
+content = "<div style='background-color:#fcfbf8; padding:8px 12px;'><span class='text-center block' style='color:#4F4F4F;'>歡迎加入 <a class='underline' href='https://line.me/R/ti/p/@086qpqhn' target='_blank' rel='noopener' style='color:#004B97; text-decoration:underline;'>官方 Line</a> 諮詢＆預約 ☁️</span>"
 
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
