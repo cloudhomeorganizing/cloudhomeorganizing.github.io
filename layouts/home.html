@@ -85,19 +85,21 @@
                 {{ end }}
               {{ end }}
             {{ else if .buttons }}
-              {{ range .buttons }}
-                {{ if .enable }}
-                  <a
-                    class="btn btn-primary mt-3"
-                    href="{{ .link | absURL }}"
-                    {{ if strings.HasPrefix .link `http` }}
-                      target="_blank" rel="noopener"
-                    {{ end }}>
-                    {{ .label }}
-                    <i class="fa fa-arrow-right pl-2"></i>
-                  </a>
+              <div class="feature-buttons">
+                {{ range .buttons }}
+                  {{ if .enable }}
+                    <a
+                      class="btn btn-primary"
+                      href="{{ .link | absURL }}"
+                      {{ if strings.HasPrefix .link `http` }}
+                        target="_blank" rel="noopener"
+                      {{ end }}>
+                      {{ .label }}
+                      <i class="fa fa-arrow-right pl-2"></i>
+                    </a>
+                  {{ end }}
                 {{ end }}
-              {{ end }}
+              </div>
             {{ end }}
           </div>
         </div>
@@ -126,8 +128,7 @@
                 <div class="swiper-wrapper">
                   {{ range .Params.testimonials }}
                     <div class="swiper-slide">
-                      <div
-                        class="bg-light dark:bg-darkmode-light rounded-lg px-7 py-10">
+                      <div class="bg-light dark:bg-darkmode-light rounded-lg px-7 py-10">
                         <div class="text-text-dark dark:text-white">
                           <svg
                             width="33"
@@ -140,9 +141,11 @@
                               fill="currentColor" />
                           </svg>
                         </div>
+
                         <blockquote class="mt-8">
                           {{ .content | markdownify }}
                         </blockquote>
+
                         <div class="mt-11 flex items-center">
                           <div class="text-text-dark dark:text-white">
                             {{ partial "image" (dict "Src" .avatar "Size" "50x50" "Class" "rounded-full" "Alt" .name) }}
@@ -160,8 +163,7 @@
                     </div>
                   {{ end }}
                 </div>
-                <div
-                  class="testimonial-slider-pagination mt-9 flex items-center justify-center text-center"></div>
+                <div class="testimonial-slider-pagination mt-9 flex items-center justify-center text-center"></div>
               </div>
             </div>
           </div>
