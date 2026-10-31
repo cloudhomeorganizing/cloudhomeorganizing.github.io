@@ -3,12 +3,14 @@
   background-color: #f5efe6;
 }
 
-
+/* 讓整站背景為淡白米色 */
 html, body, main {
   background-color: #fcfbf8 !important;
 }
 
-.page-header-inner {
-  background-color: #fcfbf8 !important;
-  background-image: none !important;
+/* 讓導覽列背景也變成同色 */
+header.header,
+header.header .navbar,
+.nav-dropdown-list {
+  background-color: #f5efe6 !important;
 }
