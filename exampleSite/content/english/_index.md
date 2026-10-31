@@ -22,9 +22,9 @@ features:
       enable: true
       label: "整理預約流程"
       link: "#"
-
+    
   - id: "service-2"
-    title: "搬家打包／精緻上架"
+    title: "搬家打包／精緻上架""
     image: "/images/service-2.png"
     content: |
       現在人忙碌的生活，自行處理搬家事務往往會搞到焦頭爛額。<br>
