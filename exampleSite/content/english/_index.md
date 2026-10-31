@@ -26,7 +26,12 @@ features:
   - id: "service-2"
     title: "搬家打包／精緻上架"
     image: "/images/service-2.png"
-    content: "現在人忙碌的生活，自行處理搬家事務往往會搞到焦頭爛額。"
+    content: |
+      現在人忙碌的生活，自行處理搬家事務往往會搞到焦頭爛額。<br>
+      我們有：<br>
+      ● 專業、細心的打包服務<br>
+      ● 新家收納規劃配置、精緻上架服務<br>
+      讓你能在2天時間內輕鬆快速入住，甚至生活上更順心順手！
     buttons:
       - enable: true
         label: "打包預約流程"
