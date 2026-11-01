@@ -3,7 +3,7 @@ title: "衣櫃整理｜讓心情變好的魔法✨"
 meta_title: ""
 description: "this is meta description"
 date: 2026-10-31T12:00:00Z
-image: "/images/image-post1-000.png"
+image: "/images/image-post1-000.jpg"
 categories: ["整理案例"]
 author: "☁️"
 tags: ["衣櫃整理","區域整理","小空間整理"]
