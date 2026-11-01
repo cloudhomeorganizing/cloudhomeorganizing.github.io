@@ -1,8 +1,8 @@
 ---
 title: "衣櫃整理｜讓心情變好的魔法✨"
 meta_title: ""
-description: ""
-date: 2026-11-01T12:00:00Z
+description: "this is meta description"
+date: 2026-10-31T12:00:00Z
 image: "/images/image-post1-001.png"
 categories: ["整理案例"]
 author: "☁️"
