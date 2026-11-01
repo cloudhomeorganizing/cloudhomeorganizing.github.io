@@ -23,7 +23,7 @@ features:
     button:
       enable: true
       label: "整理預約流程"
-      link: "https://cloudhomeorganization.github.io/blog/workflow-1/"
+      link: "/blog/workflow-1/"
     
   - id: "service-2"
     title: "搬家打包／精緻上架"
@@ -37,11 +37,11 @@ features:
     buttons:
       - enable: true
         label: "打包預約流程"
-        link: "https://cloudhomeorganization.github.io/blog/workflow-2/"
+        link: "/blog/workflow-2/"
       - enable: true
         label: "上架預約流程"
-        link: "https://cloudhomeorganization.github.io/blog/workflow-3/"
+        link: "/blog/workflow-3/"
       - enable: true
         label: "打包+上架預約流程"
-        link: "https://cloudhomeorganization.github.io/blog/workflow-4/"
+        link: "/blog/workflow-4/"
 ---
