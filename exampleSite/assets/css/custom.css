@@ -28,3 +28,22 @@ header.header .navbar,
   display: inline-block;
   width: fit-content;
 }
+
+/* 保留 announcement，但停用它的關閉 X，避免點擊後整頁空白 */
+.announcement {
+  position: static !important;
+  left: auto !important;
+  right: auto !important;
+  top: auto !important;
+  transform: none !important;
+}
+
+.announcement-button,
+.announcement-hide,
+button[aria-label="close"],
+button[aria-label="Close"],
+button[title="Close"] {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
