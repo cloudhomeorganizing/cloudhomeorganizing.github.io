@@ -42,13 +42,13 @@ name = "案例分享"
 [[main]]
 parent = "案例分享"
 name = "整理案例"
-url = "/blog"
+url = "/categories/整理案例/"
 weight = 1
 
 [[main]]
 parent = "案例分享"
 name = "搬家案例"
-url = "/blog"
+url = "/categories/搬家案例/"
 weight = 2
 
 [[main]]
