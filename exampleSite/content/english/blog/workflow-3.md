@@ -2,7 +2,7 @@
 title: "上架預約流程"
 meta_title: ""
 description: "this is meta description"
-date: 2026-11-01T12:00:00Z
+date: 2026-10-31T12:00:00Z
 image: ""
 categories: ["預約流程"]
 author: "☁️"
