@@ -1,8 +1,8 @@
 ---
-title: "打包預約流程"
+title: "打包預約流程
 meta_title: ""
 description: "this is meta description"
-date: 2026-11-1T12:00:00Z
+date: 2026-11-01T12:00:00Z
 image: "/images/service-2.png"
 categories: ["預約流程"]
 author: "☁️"
