@@ -3,7 +3,7 @@ title: "整理預約流程"
 meta_title: ""
 description: "this is meta description"
 date: 2026-10-31T12:00:00Z
-image: "/images/service-1.png"
+image: ""
 categories: ["預約流程"]
 author: "☁️"
 tags: ["預約流程","整理預約流程"]
