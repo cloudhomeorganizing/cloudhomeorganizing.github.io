@@ -29,7 +29,7 @@ header.header .navbar,
   width: fit-content;
 }
 
-/* 保留 announcement，但停用它的關閉 X，避免點擊後整頁空白 */
+/* 保留 announcement，但停用它的關閉 X，避免點擊後整頁空白 
 .announcement {
   position: static !important;
   left: auto !important;
@@ -47,3 +47,4 @@ button[title="Close"] {
   visibility: hidden !important;
   pointer-events: none !important;
 }
+*/
