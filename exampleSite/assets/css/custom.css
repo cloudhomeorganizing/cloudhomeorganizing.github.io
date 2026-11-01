@@ -28,3 +28,59 @@ header.header .navbar,
   display: inline-block;
   width: fit-content;
 }
+
+/* ===== Announcement bar: 保留公告，但不要讓右上角的關閉 X 觸發 crash ===== */
+
+/* 先把公告條本體修成正常的橫條樣式 */
+.announcement {
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0.75rem 4rem 0.75rem 1rem !important;
+  background: #f5efe6 !important;
+  border-bottom: 1px solid #e6d7c1 !important;
+  color: #4f4f4f !important;
+  font-size: 0.95rem !important;
+  line-height: 1.6 !important;
+  z-index: 20 !important;
+}
+
+/* 讓公告內容更像一般網站 */
+.announcement a {
+  color: #004b97 !important;
+  text-decoration: underline !important;
+}
+
+/* 關鍵：把 announcement 的關閉按鈕完全隱藏，避免點擊 crash */
+.announcement-button,
+.announcement-hide,
+button[aria-label="close"],
+button[aria-label="Close"],
+button[title="Close"],
+button.close,
+button[data-dismiss="alert"] {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+/* 如果你想保留一個「非互動」的版面感，可以加個右側小提示 */
+.announcement::after {
+  content: "公告";
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  color: #9a7d5e;
+  opacity: 0.8;
+  pointer-events: none;
+}
