@@ -33,15 +33,5 @@ header.header .navbar,
 .announcement {
   background-color: #f5efe6 !important;
   border: 1px solid #e6d7c1 !important;
-  border-radius: 8px !important;
-  padding: 8px 12px !important;
-  margin: 0 auto 1rem !important;
-  max-width: 100% !important;
-  box-sizing: border-box !important;
-  position: relative !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  z-index: 20 !important;
 }
 
