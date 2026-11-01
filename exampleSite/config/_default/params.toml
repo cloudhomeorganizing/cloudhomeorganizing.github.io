@@ -74,7 +74,7 @@ content = "<span class='text-center block' style='color:#4F4F4F;'>歡迎加入 <
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Cloudhomeorganization", "雲朵居家整理", "整理"]
+keywords = ["Cloudhomeorganization", "雲朵居家整理", "居家整理"]
 description = "雲朵居家整理"
 author = "☁️"
 facebook = "https://www.facebook.com/share/1ZWYrwXPhJ/"
