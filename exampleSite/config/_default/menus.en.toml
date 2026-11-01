@@ -59,7 +59,7 @@ url = "/#"
 [[main]]
 parent = "文章／常見Q&A"
 name = "文章"
-url = "/#"
+url = "/articles"
 weight = 1
 
 [[main]]
